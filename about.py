@@ -5,7 +5,7 @@ def about_app():
 
     st.header("ABOUT ME")
 
-    st.write("Este proyecto es una muestra de los conocimientos y capacidad para realizar tipo de analisis y presentación de los resultados obtenidos. Para conocer más sobre mi y otros proyectos realizados te invito a visitar mi Linkedin o Github donde podras conocer más conocer y ver mas proyectos. ")
+    st.write("Este proyecto es una muestra de los conocimientos y capacidad para realizar tipo de analisis y presentación de los resultados obtenidos. Para conocer más sobre mi y otros proyectos realizados te invito a visitar mi Linkedin o Github donde podras conocer más y ver mas proyectos. ")
 
     col1, col2 = st.columns([3, 1])
 
