@@ -75,27 +75,30 @@ def eda_app():
     fig5 = px.histogram(data_frame = df_sidebar,
              x          = "dia",
              y  = "Productos",
-            color = 'Tienda')
+            color = 'Tienda',
+            title='Suma de productos vendidos por dia de la semana')
     fig5.update_layout(width=1200, height=600)
 
     # fig6
 
     fig6 = px.histogram(data_frame = df_sidebar,
              x          = "dia",
-             hover_data = ["Productos"],
+             y = "Productos",
              facet_col      = "año",
              color ='Tienda',
-             nbins      = 50)
+             nbins      = 50,
+             title='Suma de productos vendidos por dia de la semana cada año')
     fig6.update_layout(width=1200, height=600)
 
     # fig7
 
     fig7 = px.histogram(data_frame = df_sidebar,
              x          = "mes",
-             hover_data = ["Productos"],
+             y = "Productos",
              facet_col      = "año",
              color ='Tienda',
-             nbins      = 50)
+             nbins      = 50,
+             title='Suma de productos vendidos por mes')
     fig7.update_layout(width=1000, height=700)
 
     #fig8
